@@ -14,7 +14,7 @@ public class PassagemMetro {
         Double saldo = 250.00;
         Double quantidades = 250/4.40;
         
-        System.out.println(String.format("%s Voce pode usar metro %.0f vezes",nome,quantidades));
+        System.out.println(String.format("%s Voce pode usar metro %d vezes",nome,quantidades.intValue()));
             
     }
     
